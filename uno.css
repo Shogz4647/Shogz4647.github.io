@@ -1,20 +1,38 @@
 *{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: poppins,sans-serif;
     color: white;
 }
-@media screen and (max-width:800px){
+@media screen and (max-width:540px){
     .info h1{
-        font-size: 30px;
+        font-size: 25px;
     }
     #email{
-        margin-bottom: 30px;
+        width: 50%;
+        margin: 0 auto;
+        outline: none;
+    }
+    #submit{
+        margin-top: 20px;
+    }
+    .info h6{
+        margin: 20px 0;
+    }
+    .time{
+        gap: 1rem;
+    }
+    .time div{
+        width: 50px;
+        height: 50px;
     }
 }
     
 header{
     justify-content: space-between;
     display: flex;
-    margin: 20px 60px 100px 60px ;
+    padding: 30px;
+
 }
 .head{
     display: flex;
@@ -31,7 +49,7 @@ svg{
 }
 body{
     width: 100%;
-    height: 200vh;
+    min-height: 200vh;
     background: linear-gradient(to bottom, rgba(108, 112, 234,0.7), rgb(16, 19, 116,0.95)), url(./SamplePhoto_14.jpg);
     background-size: cover;
     background-position: center;
@@ -43,7 +61,6 @@ body::-webkit-scrollbar{
     text-align: center;
 }
 .info h1{
-    font-size: 40px;
     font-weight: 400;
     width: 47vw;
     margin: 0  auto 50px;
@@ -54,19 +71,21 @@ body::-webkit-scrollbar{
     gap: 0;
 }
 #email{
-    width: 395px;
+    width: 500px;
     border-style: none;
     padding:10px 0 10px 20px;
-    margin-right: -4px;
+    outline: none;
 }
 #submit{
     background-color: rgb(30, 147, 30);
     border-style: none;
     padding: 10px;
     width: 135px;
+    margin-left: -4px;
 }
 .input h6{
     font-weight: 500;
+    margin: 20px 0;
 }
 .time {
     display: flex;
