@@ -4,6 +4,9 @@
     font-family: 'poppins', sans-serif;
 }
 @media screen and (max-width:720px){
+    .card{
+        width: 90%;
+    }
    #name{
     font-size: 1.5rem;
    }
@@ -13,6 +16,15 @@
    .card h2{
     font-size: .9rem;
    }
+   .fa-twitter{
+    color: #1da1f2;
+   }
+   .fa-github{
+    color: #d03d07;
+   }
+   .fa-linkedin{
+    color: #0e76a8;
+   }
 }
 
 body{
@@ -21,11 +33,15 @@ body{
     background-repeat: no-repeat;
     width: 100%;
 }
+section{
+    width: 80%;
+    margin: auto;
+}
 .card{
-    width: 40%;
+    width: 70%;
     border: 1px solid black;
     margin:100px auto;
-    min-height: 800px;
+    min-height: 400px;
     border-radius: 40px; 
     background:linear-gradient(rgba(154, 34, 34, 0.95),rgba(0, 0, 255,0.7)) ;
     box-sizing: border-box;
@@ -53,7 +69,6 @@ body{
 }
 .icons a{
     display: inline-flex;
-    letter-spacing: 1rem;
     margin: 30px auto;
     font-size: 35px;
     color: black;
@@ -67,11 +82,11 @@ body{
 }
 .fa-linkedin:hover{
     color: #0e76a8;
-    transition: 1s;
+    transition: 2s;
 }
 .fa-github:hover{
     color: #d03d07;
-    transition: 1s;
+    transition: 2s;
 }
 svg{
     background: linear-gradient(#9a2222f2,rgba(0, 0, 255,0.7));
