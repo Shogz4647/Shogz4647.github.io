@@ -1,0 +1,319 @@
+:root{
+--Strong-Cyan: hsl(171, 66%, 44%);
+--Light-Blue: hsl(233, 100%, 69%);
+--Dark-Grayish-Blue: hsl(210, 10%, 33%);
+--Grayish-Blue: hsl(201, 11%, 66%);
+--ff1: 'bai jamjuree', 'sans-serif';
+}
+*{
+    padding: 0;
+    margin: 0;
+    font-family: var(--ff1), 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-image: url(./images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.clipboard{
+    text-align: center;
+    margin: 130px 0 60px;
+}
+.clipboard img{
+   display: flex;
+   margin: 65px auto;
+}
+.clipboard h1{
+    font-size: 48px;
+    margin-bottom: 30px;
+    color: #4a545b;
+}
+.clipboard p{
+    font-size: 22px;
+    margin: 0 0 40px 0;
+    color:#b6bbbe;
+    line-height: 30px;
+}
+.buttons{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+.buttons button{
+    width: 250px;
+    padding: 14px;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50px; 
+}
+#ios{
+    background-color: #26bba5;
+    box-shadow: 0 0.2rem  #1ea58e;
+
+}
+#mac{
+    background-color: #6174ff;
+    box-shadow: 0 0.2rem  #5462c6;
+}
+#h2{
+    font-size: 38px;
+    color: #4a545b;
+    margin-bottom: 30px;
+}
+#pg{
+    font-size: 20px;
+}
+.qs{
+    display: flex;
+    gap: 120px;
+    margin: 0 150px 0 30px;
+}
+.qs img{
+    height: 620px;
+    margin-top: 20px;
+}
+.qs-content{
+    margin: 70px 0 100px 0;
+}
+.qs-content p{
+    color:#b6bbbe;
+    line-height: 30px;
+    margin-bottom: 100px;
+}
+.qs-content h2{
+    color: #4a545b;
+    margin-bottom: 10px;
+}
+.access{
+    text-align: center;
+}
+.access h1{
+    font-size: 38px;
+    color: #4a545b;
+    margin-bottom: 30px;
+}
+.access p{
+    font-size: 19px;
+    color: #b6bbbe;
+    word-spacing: 2px;
+    line-height: 30px;
+    margin-bottom: 120px;
+}
+.access img{
+    width: 1000px;
+    margin-bottom: 90px;
+}
+.workflow{
+    text-align: center;
+    margin-bottom:80px ;
+}
+.workflow h1{
+    color: #4a545b;
+    font-size: 38px;
+    margin-bottom: 30px;
+}
+.workflow p{
+    color: #b6bbbe;
+    font-size: 18px;
+    word-spacing: 2px;
+}
+.ddd{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 55px;
+    text-align: center;
+    margin:0 200px 150px;
+
+}
+.ddd img{
+    margin-bottom: 40px;
+}
+.ddd h2{
+    color: #4a545b;
+    margin-bottom: 30px;
+}
+.ddd p{
+    color: #b6bbbe;
+}
+.svg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    margin-bottom: 150px;
+}
+.clipboard-2{
+   text-align: center;
+}
+.clipboard-2 h1{
+    color: #4a545b;
+    margin-bottom: 30px;
+}
+.clipboard-2 p{
+    font-size: 18px;
+    color:#b6bbbe;
+    line-height: 30px;
+    margin-bottom: 30px;
+}
+.buttons-2{
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin-bottom: 180px;
+}
+.buttons-2 button{
+    width: 250px;
+    padding: 14px;
+    border-style: none;
+    color: white;
+    font-weight: 500;
+    font-size: 20px;
+    border-radius: 50px; 
+}  
+#ios-2{
+    background-color: #26bba5;
+    box-shadow: 0 0.2rem  #1ea58e;
+
+}
+#mac-2{
+    background-color: #6174ff;
+    box-shadow: 0 0.2rem  #5462c6;
+}    
+footer{
+    background-color: #f5f6f8;
+    padding: 40px;
+    align-items: center;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+}
+#ssg img{
+    width: 60px;
+    margin-left: -300px;
+    
+}
+.faq{
+    display: flex;
+    gap: 100px;
+    margin-right: 280px;
+}
+.faq h3{
+    color: #4a545b;
+}
+#abd{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: -300px;
+}
+#abd img{
+    width: 25px;
+    height: 25px;
+}
+@media (max-width:600px){
+    .clipboard img{
+        width: 100px;
+    }
+    .clipboard h1{
+        font-size: 38px;
+    }
+    .clipboard p{
+        font-size: 17px;
+    }
+    .buttons{
+        display: block;
+    }
+    .buttons button{
+        width: 80%;
+    }
+    #ios{
+        margin-bottom: 25px;
+    }
+    #pg{
+        font-size: 16.3px;
+    }
+    .qs{
+        display: block;
+        margin: auto;
+        text-align: center;
+    }
+    .qs img{
+        width: 326px;
+        height: auto;
+    }
+    .qs-content p{
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    .access p{
+        font-size: 15.49px;
+    }
+    .access img{
+        width: 100%;
+    }
+    .ddd{
+        display: block;
+        margin: auto;
+    }
+    .ddd p{
+        font-size: 15px;
+        margin-bottom: 50px;
+    }
+    .svg{
+        display:flex;
+        flex-direction: column;
+    }
+    .clipboard-2 p{
+        font-size: 15.85px;
+    }
+    .buttons-2{
+        display: block;
+    }
+    .buttons-2 button{
+        width: 80%;
+    }
+    #ios-2{
+        margin-bottom: 25px;
+    }
+    .footer{
+        display: block;
+        margin: auto;
+    }
+    .faq{
+        display: block;
+        margin: auto;
+    }
+    .faq div{
+        text-align: center;
+    }
+    #ssg{
+        text-align: center;
+    }
+    #ssg img{
+        margin: 40px 0 50px 0;
+    }
+    #abd{
+        justify-content: center;
+        margin: auto;
+    }
+    #faQ{
+        margin-bottom: 30px;
+    }
+    #con{
+        margin-bottom: 50px;
+    }
+    #pp{
+        margin-bottom: 30px;
+    }
+    #press{
+        margin-bottom: 50px;
+    }
+    #ig{
+        margin-bottom: 80px;
+    }
+}    
